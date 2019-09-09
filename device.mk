@@ -29,3 +29,7 @@ PRODUCT_PACKAGES += \
 # NoCutout
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
