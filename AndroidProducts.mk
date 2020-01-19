@@ -6,3 +6,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_guacamoleb.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_guacamoleb-user \
+    lineage_guacamoleb-userdebug \
+    lineage_guacamoleb-eng
