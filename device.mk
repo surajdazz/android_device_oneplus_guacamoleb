@@ -31,11 +31,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
-# Notch hide
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay \
-    NotchBarKiller
-
 # tri-state key
 PRODUCT_PACKAGES += \
     tri-state-key-calibrate_daemon
