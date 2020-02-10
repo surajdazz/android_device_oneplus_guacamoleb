@@ -16,10 +16,10 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/packages/apps/Snap
+    $(LOCAL_PATH)/overlay-aosp/packages/apps/Snap
 
 # Audio
 PRODUCT_COPY_FILES += \
