@@ -345,5 +345,6 @@ vendor/lib64/sensors.ssc.so
 # Vibrator HAL
 vendor/bin/hw/vendor.qti.hardware.vibrator@1.2-service
 vendor/etc/init/vendor.qti.hardware.vibrator@1.2-service.rc
+vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.default.so
 vendor/lib/hw/vibrator.default.so
