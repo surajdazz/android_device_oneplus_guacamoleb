@@ -35,7 +35,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7/OnePlus7:10/QKQ1.190716.003/2002021900:user/release-keys"
+BUILD_FINGERPRINT := google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus7 \
     PRODUCT_NAME=OnePlus7 \
