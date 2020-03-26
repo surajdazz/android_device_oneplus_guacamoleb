@@ -15,7 +15,6 @@ $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Boot Animation
-TARGET_BOOT_ANIMATION_RES_EVO := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
