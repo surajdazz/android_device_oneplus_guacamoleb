@@ -18,7 +18,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/packages/apps/Snap
+    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -29,10 +29,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
-# Notch hide
+# NoCutout
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay \
-    NotchBarKiller
+    NoCutoutOverlay
 
 # tri-state key
 PRODUCT_PACKAGES += \

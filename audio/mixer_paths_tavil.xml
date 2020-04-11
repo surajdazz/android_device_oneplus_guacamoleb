@@ -2799,13 +2799,6 @@
 <!-- #endif VENDOR_EDIT-->
     </path>
 
-<!-- ifdef VENDOR_EDIT -->
-<!-- liuhaituo@MM.Audio, 2019/12/31, Add for Sva record training wav -->
-    <path name="sva-re-mic">
-        <path name="amic4" />
-    </path>
-<!-- endif -->
-
 <!--#ifdef VENDOR_EDIT  -->
     <path name="handset-mic-karaoke">
         <ctl name="AIF1_CAP Mixer SLIM TX5" value="1" />
@@ -3221,10 +3214,6 @@
 
     <path name="voice-rec-mic">
         <path name="handset-mic" />
-<!-- ifdef VENDOR_EDIT -->
-        <ctl name="ADC4 Volume" value="6" />
-        <ctl name="DEC0 Volume" value="74" />
-<!-- endif -->
     </path>
 
     <path name="camcorder-mic">
@@ -3835,10 +3824,6 @@
 
     <path name="unprocessed-mic">
         <path name="unprocessed-handset-mic" />
-<!-- ifdef VENDOR_EDIT -->
-        <ctl name="ADC4 Volume" value="6" />
-        <ctl name="DEC0 Volume" value="78" />
-<!-- endif -->
     </path>
 
     <path name="unprocessed-stereo-mic">
