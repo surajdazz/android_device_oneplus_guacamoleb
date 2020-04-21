@@ -20,6 +20,11 @@ CUSTOM_BUILD_TYPE := OFFICIAL
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Maintainer Prop
+EVO_DONATE_URL := https://paypal.me/spookcity138
+EVO_MAINTAINER := Rick_Macek
+EVO_SUPPORT_URL := https://t.me/EvolutionXOnePlus
+
 # Gapps
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
