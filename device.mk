@@ -29,7 +29,3 @@ PRODUCT_PACKAGES += \
 # NoCutout
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
-
-# tri-state key
-PRODUCT_PACKAGES += \
-    tri-state-key-calibrate_daemon
